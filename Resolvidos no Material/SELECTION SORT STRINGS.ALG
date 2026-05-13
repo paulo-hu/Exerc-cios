@@ -6,12 +6,11 @@ nomes: Vetor[1..TAM] de Caractere
 i, j, min: Inteiro
 temp: Caractere
 Inicio
-// Leitura
 Para i <- 1 Ate TAM faca
 Escreva("Nome ", i, ": ")
 Leia(nomes[i])
 FimPara
-// Selection Sort
+
 Para i <- 1 Ate TAM-1 faca
 min <- i
 Para j <- i+1 Ate TAM faca
@@ -26,8 +25,8 @@ nomes[min] <- temp
 FimSe
 
 FimPara
-// Exibição
-Escreval("Nomes em ordem alfabética:")
+
+Escreval("Nomes em ordem alfabÃ©tica:")
 Para i <- 1 Ate TAM faca
 Escreval(nomes[i])
 FimPara
